@@ -1,6 +1,5 @@
 .says {
     margin-top: 100px;
-    padding-bottom: 50px;
 }
 .says__title {
     margin-bottom: 40px;
@@ -15,7 +14,6 @@
 }
 .swiper-wrapper {
     padding: 50px 0;
-    
 }
 .swiper-slide {
     padding: 30px 40px 30px 30px;
@@ -60,4 +58,14 @@
     padding: 10px;
 }
 
- 
+ @media (max-width: 1000px){
+    .says {
+        margin-top: 50px;
+    }
+    .swiper-wrapper {
+        padding: 20px 0;
+    }
+    .says__title {
+        margin-bottom: 0;
+    }
+ }

@@ -23,6 +23,7 @@
 }
 .footer__list:nth-child(4){
     padding-left: 40px;
+    padding-right: 10px;
 }
 .footer__list span{
     text-transform: uppercase;
@@ -41,4 +42,32 @@
 .footer__copy {
     text-align: center;
     color: rgba(122, 112, 112, 0.999);
+    line-height: 1.4;
+}
+
+@media (max-width: 1000px){
+    .footer__inner {
+       flex-wrap: wrap;
+       row-gap: 40px;
+    }
+}
+@media (max-width: 480px){
+    .footer__inner {
+       flex-direction: column;
+       row-gap: 30px;
+       margin-bottom: 10px;
+    }
+    .footer__list:nth-child(1){
+        padding-left: 0;
+    }
+    .footer__list:nth-child(2){
+        padding-left: 0;
+    }
+    .footer__list:nth-child(3){
+        padding-left: 0;
+    }
+    .footer__list:nth-child(4){
+        padding-left: 0;
+        padding-right: 0;
+    }
 }

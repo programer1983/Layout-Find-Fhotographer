@@ -59,3 +59,23 @@
     max-width: 200px;
     color: rgba(0, 0, 0, 0.742);
 }
+
+@media (max-width: 1160px){
+    .talent__items {
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+    }
+}
+@media (max-width: 880px){
+    .talent {
+        margin-top: 80px;
+    }
+    .talent__items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 585px){
+    .talent__items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

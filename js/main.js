@@ -1,7 +1,30 @@
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 2.5,
     spaceBetween: 30,
+
+    breakpoints: {
+      1000: {
+        slidesPerView: 2.5,
+      },
+      600: {
+        slidesPerView: 1.5,
+      },
+      0: {
+        slidesPerView: 1,
+      }
+    },
   });
+  /* ====================================================================================================  */
+
+  const burgerMenu = document.querySelector(".header__burger")
+  const headerMenu = document.querySelector(".header__menu")
+
+  burgerMenu.addEventListener("click", openMenu)
+
+  function openMenu(){
+    burgerMenu.classList.toggle('active')
+    headerMenu.classList.toggle('open-menu')
+  }
 
 /* ====================================================================================================  */
   const scrollRevealOption = {

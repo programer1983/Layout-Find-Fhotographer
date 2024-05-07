@@ -67,3 +67,11 @@
     color: var(--text-dark);
     font-weight: 600;
 }
+
+@media (max-width: 835px){
+    .popular__title{
+        max-width: 300px;
+        width: 100%;
+        margin: 0 auto 30px;
+    }
+}
