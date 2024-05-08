@@ -211,6 +211,9 @@
       font-size: 40px;
    }
    .header__serch {
-    width: 270px;
+      width: 270px;
  }
+    .header__serch input{
+        width: 270px;
+    }
 }
