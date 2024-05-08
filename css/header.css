@@ -200,7 +200,7 @@
       width: 300px;
    }
    .header__serch input{
-      max-width: 270px;
+      max-width: 200px;
    }
 }
 @media (max-width: 395px){
@@ -214,6 +214,6 @@
       width: 270px;
  }
     .header__serch input{
-        max-width: 240px;
+        max-width: 150px;
     }
 }
