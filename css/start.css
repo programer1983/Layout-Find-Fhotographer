@@ -1,5 +1,6 @@
 .start {
     margin-top: 150px;
+    overflow-x: hidden;
 }
 .start__body{
     display: flex;

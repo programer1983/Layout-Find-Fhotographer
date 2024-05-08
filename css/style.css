@@ -16,6 +16,10 @@
    --maxWidth: 1200px
 }
 
+html.hidden-html{
+    overflow: hidden;
+}
+
 body{
     font-family: var(--fontPoppins);
 }

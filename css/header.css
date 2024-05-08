@@ -199,6 +199,9 @@
    .header__serch {
       width: 300px;
    }
+   .header__serch input{
+      width: 300px;
+   }
 }
 @media (max-width: 395px){
     .header {

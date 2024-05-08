@@ -18,12 +18,14 @@ var swiper = new Swiper(".mySwiper", {
 
   const burgerMenu = document.querySelector(".header__burger")
   const headerMenu = document.querySelector(".header__menu")
+  const html = document.querySelector("html")
 
   burgerMenu.addEventListener("click", openMenu)
 
   function openMenu(){
     burgerMenu.classList.toggle('active')
     headerMenu.classList.toggle('open-menu')
+    html.classList.toggle('hidden-html')
   }
 
 /* ====================================================================================================  */
